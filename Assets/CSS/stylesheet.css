@@ -3,26 +3,41 @@
   }
   
   body {
-    font-family: Arial;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-size: 16px;
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+    padding: 20px;
   }
   
   header {
     padding: 40px;
-    text-align: right;
+    text-align: left;
     background: #13293d;
     color: #fff;
   }
 
-  * {
-    box-sizing: border-box;
+  header img {
+    justify-content: right;
   }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
+
+ nav {
+    display: flex;
+    background-color: coral;
+ }
+
+ nav a {
+   color: #13293d;
+   padding: 14px 20px;
+   text-decoration: none;
+   text-align: center;
+ }
+
+ nav a:hover {
+  background-color: whitesmoke;
+  color: #13293d;
+}
   
   /* Center website */
   .main {
@@ -39,13 +54,13 @@
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* Add padding */
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  /* Floating columns next to each other */
   .column {
     float: left;
     width: 25%;
