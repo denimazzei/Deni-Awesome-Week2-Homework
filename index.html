@@ -11,12 +11,12 @@
 <body>
       <header>
         <h1>👋 Hi! I'm Deni Mazzei</h1>
-        <img src="Assets/Images/profile_image.png" alt="Deni Portfolio Picture">
+        <img src="Assets/Images/profile_image.png" alt="Deni Portfolio Picture" class="profile_image">
           <nav>
-            <a href="#">About</a>
-            <a href="#">My Work</a>
-            <a href="#">Contact</a>
-            <a href="#">Resume</a>
+            <a href="#About">About</a>
+            <a href="#MyWork">My Work</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Resume">Resume</a>
           </nav>
       </header>
 
@@ -36,7 +36,7 @@
   
           <div class="row">
             <div class="column">
-              <div class="content">
+              <div id="About" class="content">
                 <img src="Assets/Images/michigan.jpeg" alt="Michigan" style="width:100%">
                 <h3>About Me</h3>
                 <p>Hailing originally from Battle Creek, Michigan, find out more about my journey to become a full stack developer >>></p>
@@ -44,7 +44,7 @@
             </div>
     
             <div class="column">
-              <div class="content">
+              <div id="MyWork" class="content">
                 <img src="Assets/Images/my work example.png" alt="workexample" style="width:100%">
                 <h3>My Work</h3>
                 <p>I specialize in ed tech, photography, and travel.Click to see a few examples of my work. >>></p>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="column">
-              <div class="content">
+              <div id="Resume" class="content">
                 <img src="Assets/Images/resume example.gif" alt="Resume" style="width:100%">
                 <h3>Resume</h3>
                 <p>Click here for a downloadable vesion of my professional resume. >>></p>
@@ -60,23 +60,29 @@
             </div>
 
             <div class="column">
-              <div class="content">
+              <div id="Contact" class="content">
                 <img src="Assets/Images/contact example.gif" alt="Contact Me" style="width:100%">
                 <h3>Contact</h3>
                 <p>Let's connect! I can't wait to hear from you! >>></p>
               </div>
             </div>
           </div>
-          
+
           <hr>
   
   <!-- END MAIN -->
-     <footer>
-        <h4>Contact</h4>
-        <a href="#">Email</a>
-        <a href="#">Phone</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
+     
+    <footer>
+        <h4>Copyright 2021</h4>
+        <p class="footer-text-left">
+          <a href="mailto:dconkell@gmail.com" class="menu">Email</a>
+          <a href="555-555-5555" class="menu">Phone</a>
+        </p>
+
+        <div class="footer-content-right">
+          <a href="https://denimazzei.github.io/"><img src="Assets/Images/github_social_icon.png" class="icon-style" alt="Github icon"></a>
+          <a href="https://www.linkedin.com/in/deni-mazzei/"><img src="Assets/Images/linkedin_social_icon.png" class="icon-style" alt="LinkedIn icon"></a>
+        </div>
      </footer>
 
 </body>

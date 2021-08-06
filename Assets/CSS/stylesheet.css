@@ -18,13 +18,18 @@
     color: #fff;
   }
 
-  header img {
-    justify-content: right;
+  .profile_image {
+      float: right;
+      margin-top: -170px;
+      width: 250px;
+      height: 250px;
   }
+  
 
  nav {
     display: flex;
     background-color: coral;
+    float: inline-end;
  }
 
  nav a {
@@ -77,6 +82,41 @@
   .content {
     background-color: white;
     padding: 10px;
+  }
+
+  footer {
+    background: #13293d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-text-left {
+    font-size: 25px;
+    padding-left: 40px;
+    float: left;
+    word-spacing: 20px;
+  }
+  
+  a.menu:hover {
+    background-color:yellow;
+    font-size:20px;
+  }
+
+  .footer-content-right {
+    padding-right: 40px;
+    margin-top: 20px;
+    float: right;
+  }
+
+  .icon-style {
+    height:40px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+
+  .icon-style:hover {
+    background-color:yellow;
+    padding:5px;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
