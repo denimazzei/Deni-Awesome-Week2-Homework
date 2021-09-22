@@ -18,18 +18,20 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
-            <img src="./Assets/Images/Compass (1).png" width="150" height="150"></a>
+    <header class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+            <a class="navbar-brand font-tertiary h3" href="updatedindex.html">
+            <img src="./Assets/Images/Logo/Compass (1).png" alt="My logo" width="150" height="150"></a>
             
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-              </a>
-            </div>
+            </a>
           
             <div id="navigation" class="navbar-menu">
               <div class="navbar-end">
@@ -46,38 +48,38 @@
         <!-- bulma hero area -->
         <section class="hero-area has-background-primary " id="parallax" src="./Assets/Images/portfolio">
             <div class="container">
-            <div class="columns">
-                <div class="column is-11-desktop is-offset-1-desktop">
-                    <h1 class="has-text-white font-tertiary">👋 Hi! I'm Deni Mazzei <br> Future Full Stack Developer</h1>
-                </div>
-            </div>
+              <div class="columns">
+                  <div class="column is-11-desktop is-offset-1-desktop">
+                      <h1 class="has-text-white font-tertiary">👋 Hi! I'm Deni Mazzei <br> Future Full Stack Developer</h1>
+                  </div>
+              </div>
             </div>
             <div class="layer-bg is-full">
-                <img class="image is-full" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+                <img class="image is-full" src="./Assets/Images/Page-Decor/leaf-bg.png" alt="bg-shape">
             </div>
             <div class="layer" id="l2">
-                <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/dots-group-cyan.png" alt="bg-shape">
             </div>
             <div class="layer" id="l3">
-                <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/leaf-orange.png" alt="bg-shape">
             </div>
             <div class="layer" id="l4">
-                <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/dots-orange.png" alt="bg-shape">
             </div>
             <div class="layer" id="l5">
-                <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/leaf-yellow.png" alt="bg-shape">
             </div>
             <div class="layer" id="l6">
-                <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/leaf-cyan.png" alt="bg-shape">
             </div>
             <div class="layer" id="l7">
-                <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/dots-orange.png" alt="bg-shape">
             </div>
             <div class="layer" id="l8">
-                <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/leaf-pink-round.png" alt="bg-shape">
             </div>
             <div class="layer" id="l9">
-                <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+                <img src="./Assets/Images/Page-Decor/leaf-cyan-2.png" alt="bg-shape">
             </div>
         </section>
 
@@ -86,14 +88,14 @@
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-four-fifths-desktop has-text-centered">
-                    <p class="font-secondary paragraph-lg has-text-dark">Thanks for stopping by! Here you'll find more information about me, my past work, and dreams for the future.
-                        I'm currently the Director of Adventure 2 Learning: an online educational video library for teachers to use in their classrooms
-                        with students.</p>
-                        <br> 
-                    <p>Over the years, my experience in marketing, communication, sales,
-                    project management, and running small start-ups has allowed me to experience front & backend development from a variety of viewpoints from the client-side. 
-                    Now that I've become a developer myself, I'm excited to put my programming knowledge, skills and expertise from both sides of the coin to work for you 
-                    to tackle your next project.</p>
+                      <p class="font-secondary paragraph-lg has-text-dark">Thanks for stopping by! Here you'll find more information about me, my past work, and dreams for the future.
+                          I'm currently the VP of Adventure 2 Learning: an online educational video library for teachers to use in their classrooms
+                          with students.</p>
+                          <br> 
+                      <p class="font-secondary paragraph-lg has-text-dark"> Over the years, my experience in marketing, communication, sales,
+                      project management, and running small start-ups has allowed me to experience front & backend development from a variety of viewpoints from the client-side. 
+                      Now that I'm becoming a developer myself, I'm excited to put my programming knowledge, skills and expertise from both sides of the coin to work for you 
+                      to tackle your next project.</p>
                     </div>
                 </div>
             </div>
@@ -112,7 +114,7 @@
                       <div class="wave" data-progress="30%"></div>
                     </div>
                     <div class="card-content has-background-white">
-                      <h4>Project Management (30%%)</h4>
+                      <h4>Project Management (30%)</h4>
                     </div>
                   </div>
                 </div>
@@ -149,34 +151,50 @@
               </div>
             </div>
           </section>
-
-        <!-- Gallery Grid -->
-        <section class="section">
-            <div class="container">
-                <div class="has-text-centered">
-                    <h2 class="section-title">Get to Know Me</h2>
+        
+              <!-- Portfolio Gallery Grid -->
+  
+              <div class="row">
+                <div class="column">
+                  <div id="About" class="content">
+                    <img src="Assets/Images/michigan.jpeg" alt="Michigan" style="width:100%">
+                    <h3>About Me</h3>
+                    <p>Hailing originally from Battle Creek, Michigan, find out more about my journey to become a full stack developer >>></p>
+                  </div>
                 </div>
-                <div class="columns">
-                    <div class="column has-text-centered" id="about">
-                        <i class="far fa-address-card"></i>
-                        <h4>About Me</h4>
-                        <p class="mb-0">Hailing originally from Battle Creek, Michigan, find out more about my journey to become a full stack developer >>></p>
-                    </div>
-                    <div class="column has-text-centered" id="portfolio">
-                        <i class="fas fa-briefcase"></i>
-                        <h4>My Work</h4>
-                        <p class="mb-0">I specialize in ed tech, start-ups, and travel. Click to see a few examples of my work. >>></p>
-                    </div>
-                    <div class="column has-text-centered" id="resume">
-                        <i class="far fa-file"></i>
-                        <h4>Resume</h4>
-                        <p class="mb-0">Click <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:8b1e4d23-a21f-4aa9-8340-7f1c22c093a7">HERE</a> for a downloadable version of my professional resume. >>></p>
-                    </div>
+        
+                <div class="column">
+                  <div id="MyWork" class="content">
+                    <img src="Assets/Images/my work example.png" alt="workexample" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>I specialize in ed tech, small businesses, and travel. Click to see a few examples of my work. >>></p>
+                  <br>
+                  </div>
                 </div>
-            </div>
-        </section>
+    
+                <div class="column">
+                  <div id="Resume" class="content">
+                    <img src="./Assets/Images/resume-portfolio.jpg" alt="Resume" style="width:100%">
+                    <h3>Resume</h3>
+                    <p>Click <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:8b1e4d23-a21f-4aa9-8340-7f1c22c093a7">HERE</a> for a downloadable vesion of my professional resume. >>></p>
+                  <br>
+                  <br>
+                  </div>
+                </div>
+    
+                <div class="column">
+                  <div id="Contact" class="content">
+                    <img src="Assets/Images/contact example.gif" alt="Contact Me" style="width:100%">
+                    <h3>Contact</h3>
+                    <p>Let's connect! I can't wait to hear from you! >>></p>
+                  <br>
+                  <br>
+                  <br>
+                  </div>
+                </div>
+              </div>
 
-        <!-- portfolio -->
+        <!-- Work Examples -->
         <section class="section">
             <div class="container">
             <div class="has-text-centered">
@@ -215,10 +233,10 @@
                     <img src="./Assets/Images/group-project-1.png" alt="project-one" class="image is-full">
                     <div class="hover-overlay">
                         <div class="hover-content">
-                            <a class="button is-small is-light" href="https://brigittepowers.github.io/stick-it-to-starbucks-project-1/">view deployed version</a>
+                            <a class="button is-small is-light" href="https://denimazzei.github.io/stick-it-to-starbucks-project-1/">view deployed version</a>
                         </div>
                         <div class="hover-content">
-                            <a class="button is-small is-dark" href="https://github.com/BrigittePowers/stick-it-to-starbucks-project-1">view GitHub repo</a>
+                            <a class="button is-small is-dark" href="https://github.com/denimazzei/stick-it-to-starbucks-project-1">view GitHub repo</a>
                         </div>
                     </div>
                 </div>
@@ -226,37 +244,6 @@
             </div>
         </section>
     
-
-        <!-- contact -->
-        <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
-            <div class="container">
-              <div class="has-text-centered">
-                <h2 class="section-title">Contact Info</h2>
-              </div>
-              <div class="columns is-centered">
-                <div class="column is-8-desktop">
-                  <div class="has-background-white card-content has-text-centered shadow-down">
-                    <h4 class="mb-80">Contact Form</h4>
-                    <form action="#" class="columns is-multiline is-centered">
-                      <div class="column is-6-tablet">
-                        <input type="text" id="name" name="name" placeholder="Full Name" class="input">
-                      </div>
-                      <div class="column is-6-tablet">
-                        <input type="email" id="email" name="email" placeholder="Email Address" class="input">
-                      </div>
-                      <div class="column is-full">
-                        <textarea name="message" id="message" class="input"
-                          placeholder="Type Message Here"></textarea>
-                      </div>
-                      <div class="column is-6-tablet is-10">
-                        <button class="button is-primary is-fullwidth">send</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
 
 <!-- footer -->
 <footer class="has-background-dark footer-section">
@@ -280,6 +267,11 @@
           var CurrentYear = new Date().getFullYear()
           document.write(CurrentYear)
         </script> Deni Mazzei</p>
+        <div class="section is-small ">
+          <a href="https://denimazzei.github.io/"><img src="Assets/Images/github_social_icon.png" class="icon-style" alt="Github icon"></a>
+          <a href="https://www.linkedin.com/in/deni-mazzei/"><img src="Assets/Images/linkedin_social_icon.png" class="icon-style" alt="LinkedIn icon"></a>
+        </div>
+
     </div>
   </footer>
 

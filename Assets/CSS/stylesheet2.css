@@ -426,20 +426,6 @@ textarea.input {
 }
 
 /* /card */
-.list-hero-social {
-  position: relative;
-  z-index: 1;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  width: 40px;
-  margin: 30px 0 0 50px;
-}
-
-.list-hero-social .list-item {
-  border: none;
-  background: transparent;
-}
 
 .is-rounded {
   border-radius: 50%;
@@ -802,7 +788,7 @@ textarea.input {
   z-index: -1;
 }
 
-/* /footer */
+/* footer */
 .card-lg {
   flex-direction: row-reverse;
   align-items: center;
